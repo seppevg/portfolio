@@ -5,7 +5,11 @@ This is the code for my personal portfolio website. It's a custom horizontal scr
 ## Navigation
 
 Find my website online!
+
 [Home](https://seppevangeel.be/)
+
 [Project page](https://seppevangeel.be/projecten.html)
+
 [Blog](https://seppevangeel.be/blogs.html)
+
 [Contact](https://seppevangeel.be/index.html#contact)
