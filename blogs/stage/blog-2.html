@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styling/normalize.css">
+    <link rel="stylesheet" href="../../styling/style.css">
+    <link rel="stylesheet" href="../../styling/desktop.css">
+    <title>Stage | Week 3 & 4</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon/favicon.svg">
+    <link rel="manifest" href="../../assets/favicon/manifest.json">
+</head>
+
+<body id="scrollable">
+    <div class="intro"></div>
+    <div class="intro__2"></div>
+
+    <div class="margin__back">
+        <a href="../../blogs.html" class="back__indicator">
+            <img src="../../assets/arrow-back.svg" alt="Arrow">
+            Terug
+        </a>
+    </div>
+
+    <div class="project__detail blog__detail">
+        <div class="blog__info">
+            <div class="author__picture">
+                <img alt="Author picture of Seppe Vangeel" src="../../assets/blogs/blog_author_seppe_vangeel.webp"
+                    onerror='this.onerror = null; this.src="../../assets/blogs/blog_author_seppe_vangeel.png"' />
+            </div>
+            <div class="author__info">
+                <p class="author__info__name">Seppe Vangeel</p>
+                <p class="author__info__date">Zondag 12 maart 2023</p>
+            </div>
+        </div>
+        <div class="blog_hero_picture">
+            <img style="border-radius: 20px;" alt="Stand-up meeting"
+                src="../../assets/blogs/stage/blog-2/stand-up.png" />
+        </div>
+        <h1 class="project__details__title">Stage week 3 | Het project krijgt vorm</h1>
+        <div>
+            <h2 class="subtitle">Dag 9 - Start aan de Frontend</h2>
+            <p class="project__description">
+                Op maandag begon ik mijn werkdag door zelfstandig aan de slag te gaan. Ik ging verder met de faq pagina
+                waar ik vrijdagavond mee was geëindigd. Dit werk ging verrassend vlot!
+                <br><br>
+                Om 9u30 was het opnieuw standup met heel het team. Heel fijn om te horen waar iedereen mee bezig is! Ik
+                voelde me vooral opgelucht om te horen dat het team blij was met mijn vooruitgang tot dusver.
+                <br><br>
+                Daarna vroeg ik Nick om hulp bij het verbeteren van mijn templates, waaronder het invoegen van titels en
+                paginatitels in translations en in twig blocks. Nick was opnieuw heel behulpzaam en gaf me waardevolle
+                tips en suggesties om de templates nog beter te maken.
+                <br><br>
+                Tijdens de middag genoten we opnieuw van een goeie maaltijd: een burger met pulled pork!
+            </p>
+        </div>
+        <div class="blog__images__container">
+            <img src="../../assets/blogs/stage/blog-2/bruger-pulled-pork.jpeg" alt="Hamburger met Pulled Pork" />
+        </div>
+        <div>
+            <p class="project__description">
+                's Middags werkte ik zelfstandig verder aan het project. Ik verbeterde de structuur van het project,
+                verduidelijkte naamgevingen en werkte verschillende componenten bij. Later begon ik ook aan de frontend
+                van het project en werkte ik aan de HomePage en faq pagina. Het was een drukke maar productieve dag en
+                ik was erg tevreden met de voortgang die ik had geboekt!
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 10 - happy birthday</h2>
+            <p class="project__description">
+                Op dinsdag was het 28 februari, aangezien er dit jaar geen 29 februari is, was dit dus mijn verjaardag!
+                In de ochtend ben ik verder gegaan waar ik gebleven was: de frontend van het project. Ik heb de styling
+                van de homepagina en faq pagina afgewerkt. Dit ging best goed!
+                <br><br>
+                Op mijn verjaardag had de chefkok opnieuw een geweldig diner voorzien: een mousseline met parmezaan met
+                varkenshaasje in een lekker sausje en daarbij nog gegrilde groentjes. Het leek een heel
+                verjaardagsdiner!
+            </p>
+        </div>
+        <div class="blog__images__container">
+            <img src="../../assets/blogs/stage/blog-2/moussoline-met-varkenshaasje.jpeg"
+                alt="Mousseline met varkenshaasje" />
+        </div>
+        <div>
+            <p class="project__description">
+                In de namiddag ben ik gestart aan het formulier in de frontend: vooral dan de structuur en styling. Ook
+                heb ik met behulp van een translator de translations toegevoegd in de formulieren. Zo zijn deze variabel
+                voor gebruikers van verschillende afkomst.
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 11 - upgrades, upgrades, upgrades</h2>
+            <p class="project__description">
+                Woensdag heb ik de hele dag besteed aan het verbeteren van mijn reeds geschreven code. Aangezien ik nu
+                ongeveer twee weken in het symfony framework bezig was, merkte ik al dat mijn kennis groter was. Ik
+                startte met het verbeteren van de structuur in de app, daarna ging ik verder met het beter gebruiken van
+                de bootsrap classes in de twig templates om uiteindelijk de entitys te optimaliseren.
+                <br><br>
+                Het optimaliseren van deze entitys heb ik samen met Nick en Niels gedaan. Zo zijn we overgeschakeld van
+                id’s naar uuid’s. Dit is belangrijk want UUID's kunnen helpen bij het beschermen van de privacy van
+                gebruikers omdat ze geen informatie bevatten over de volgorde waarin records zijn toegevoegd aan de
+                database. Auto-incrementing ID's daarentegen kunnen vaak worden gebruikt om te achterhalen wanneer
+                records zijn toegevoegd en in welke volgorde. En dit wilden we uiteraard niet!
+                <br><br>
+                Deze switch hebben we volbracht met ‘traits’, dit zijn aparte classes die aanroepbaar zijn in alle
+                entity’s en zo dus schaalbaar en herbruikbaar zijn. Deze switch bracht echter enorm veel problemen met
+                zich mee. Heel de namiddag zijn we bezig geweest met errors te fixen. Maar samen is het uiteindelijk wel
+                gelukt om alles in orde te krijgen en om de juiste foreign keys toe te voegen.
+
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 12 - de anderstaligen ook goed gezind maken</h2>
+            <p class="project__description">
+                Woensdag ben ik verder gegaan waar ik dinsdag was gebleven: het upgraden van mijn code. Nu alles wat te
+                maken heeft met de database in orde was, ging ik verder met de andere onderdelen.
+                <br><br>
+                Zo heeft Nick me geholpen met het updaten van de routes. In plaats van standaard urls te maken, moesten
+                het variabele urls worden die een “locale” accepteren. Samen hebben we deze change doorgevoerd in mijn
+                code.
+                <br><br>
+                Daarna ben ik zelfstandig verder gegaan met het verbetren van mijn code. Zo heb ik styling, javascript
+                en templates onderverdeeld in componenten, zodat de code schaalbaarder en netter was.
+            </p>
+        </div>
+        <h1 class="project__details__title">Stage week 4 | Het einde is in zicht! <small>(Voor Hubo toch)</small></h1>
+        <div>
+            <h2 class="subtitle">Dag 13 - cleave js library</h2>
+            <p class="project__description">
+                Nu ik vorige week mijn code geüpgraded had, kon ik verder gaan met het uitwerken van andere features. In
+                het weekend was ik op zoek gegaan naar een manier om een input-masker te plaatsen op het formulier
+                waarin gebruikers hun actiecode kunnen invoeren.
+                <br><br>
+                Dit “masker” moet ervoor zorgen dat gebruikers geen spatie en koppelteken moeten invoeren, maar dat dit
+                automatisch wordt gedaan. Dit verhoogt het gebruiksgemak en zorgt voor uniformiteit. Echter kon ik geen
+                ‘vanilla’ manier vinden die zou werken op dit project. Na wat overleg met mijn team besloten we om een
+                library te gebruiken die dit kon doen.
+                <br><br>
+                Opnieuw hadden we om 9u30 een stand-up met het hele team: dit blijft toch een speciaal moment in de
+                week! De rest van de voormiddag heb ik me zelfstandig bezig gehouden met kleine features.
+                <br><br>
+                In de namiddag heb ik voor een login en logout controller gezorgd, zodat alleen admins op het admin
+                panel kunnen. Deze code kon ik grotendeels hergebruiken van een ander project, dus hier had ik geen hulp
+                bij nodig.
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 14 - genereren van actiecodes</h2>
+            <p class="project__description">
+                Dinsdag moest ik starten aan iets dat ik al even aan het uitstellen was, omdat ik bang had dat het me
+                niet ging lukken: het genereren van actiecodes. Waarom ik hier bang voor had? Omdat deze functie
+                uiteindelijk zo’n 1.3 miljoen codes moest genereren!
+                <br><br>
+                Eigenlijk maakte ik me zorgen voor niets. Ik was al drie weken aan het werken met symfony en begon de
+                meeste code wel te begrijpen. Na het goed nalezen en begrijpen van de oude code kon ik dus vlot verder
+                met het uitwerken van deze code. Veel stress voor niets!
+                <br><br>
+                Op de middag heb ik weer iets enorm lekker gekregen: een Libanees broodje met humus, gegrilde groentjes,
+                sla, feta en falafel: dat was weer heel goed!
+            </p>
+        </div>
+        <div class="blog__images__container">
+            <img src="../../assets/blogs/stage/blog-2/libanees-brood-falafel.jpeg" alt="libanees broodje met falafel" />
+        </div>
+        <div>
+            <p class="project__description">
+                De rest van de dag heb ik me bezig gehouden met het uitbreiden van de translations, want deze had ik nog
+                niet toegevoegd aan de validatieformulieren.
+                <br><br>
+                Tenslotte heb ik ook in het adminpanel ook nog wat aanpassingen moeten doen, aangezien sommige functies
+                niet meer helemaal 100% werkten door de switch van het gebruik van uuid’s. Maar dit ging vrij vlot!
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 15 - winkels & mails</h2>
+            <p class="project__description">
+                Nu alle main-features in het project waren verwerkt, kon ik verder gaan met de afwerking. Zo heb ik een
+                extra entity aangemaakt voor “store”, zodat gebruikers makkelijk hun Hubo-winkel kunnen selecteren uit
+                een lijst en dat hun registratie hieraan gekoppeld kan worden voor belangrijke data en statistieken.
+                <br><br>
+                Toen ik dit had afgewerkt, ben ik over gegaan naar een andere functionaliteit die volledig nieuw voor me
+                was: het versturen van mails. Gelukkig kon ik weer terecht bij mijn goeie collega Nick! Hij wist me te
+                vertellen dat symfony en handige ingebakken mailer functie heeft! Zo kon ik dus vrij gemakkelijk
+                mailtjes sturen naar de gebruikers.
+                <br><br>
+                Na wat te testen en te spelen met deze mail functie, besloten we om deze functie om te vormen naar een
+                service zodat ik deze kon hergebruiken. De structuur van de mailtjes kon ik volledig overnemen van het
+                oude project, best handig!
+                <br><br>
+                Tijdens de middag kon ik opnieuw genieten want de chef had twee van mijn favoriete gerechten
+                gecombineerd: pasta en varkenswangetjes!!
+            </p>
+        </div>
+        <div class="blog__images__container">
+            <img src="../../assets/blogs/stage/blog-2/pasta-varkenswang.jpeg" alt="pasta met varkenswangetjes" />
+        </div>
+        <div>
+            <p class="project__description">
+                Hierna heeft Nick mijn code eens heel snel overlopen en wist hij me te vertellen dat entitys en
+                repositorys normaal steeds in het enkelvoud worden benoemd: mijn “stores”, “registrations” en … moesten
+                dus “store”, “registration” en … worden. Daar heb ik me dan de rest van de dag mee bezig gehouden!
+            </p>
+        </div>
+        <div>
+            <h2 class="subtitle">Dag 16 - from start to finish</h2>
+            <p class="project__description">
+                De laatste twee features die ik moest uitwerken waren de blacklist functionaliteit en het kunnen
+                instellen van een start en einddatum van de campagne: hier ben ik dus meteen aan gestart op vrijdag!
+                <br><br>
+                Eigenlijk waren dit nog twee vrij uitgebreide features die wel belangrijk waren, maar die ik nog niet
+                echt kon testen voor de andere functionaliteiten gereed waren. Het invoeren van de blacklist
+                functionaliteit ging heel vlot aangezien ik deze bijna helemaal kon overnemen van het oude silex
+                project.
+                <br><br>
+                De service die moest controleren of de campagne actief was, die was iets moeilijker om uit te werken.
+                Hiervoor heb ik nog eens beroep moeten doen op mijn collega’s die opnieuw heel uitgebreid konden
+                uitleggen wat ik moest doen, hoe ik er aan moest beginnen en wat ze juist verwachtte. Dit heeft er voor
+                gezorgd dat het al bij al nog vrij vlot verliep!
+                <br><br>
+                Na 4 weken of na 16 dagen was het Hubo project (zo goed als) afgewerkt en daar was ik wel echt trots op!
+                Volgende week gingen Nick en Niels eens mijn project bekijken en feedback geven. Daar had ik al wel een
+                beetje stress voor!
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class="details__contact__info">
+        <h3 class="project__details__title">Benieuwd naar meer?</h3>
+        <p class="project__description">
+            Bekijk dan zeker mijn andere blogs!
+        </p>
+        <div class="project__btn__container">
+            <a href="../../blogs.html" class="project__btn">Zie alle blogs!</a>
+        </div>
+    </div>
+
+    <script src="../../js/intro.js"></script>
+</body>
+
+</html>

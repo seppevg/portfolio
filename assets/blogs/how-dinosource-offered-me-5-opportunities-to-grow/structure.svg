@@ -1,0 +1,21 @@
+<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.5 0C30.0832 0 22.833 2.19934 16.6661 6.31989C10.4993 10.4404 5.69285 16.2971 2.85456 23.1494C0.0162756 30.0016 -0.726387 37.5416 0.720559 44.8159C2.16751 52.0902 5.73906 58.772 10.9835 64.0165C16.228 69.261 22.9099 72.8325 30.1842 74.2794C37.4584 75.7264 44.9984 74.9838 51.8507 72.1455C58.7029 69.3072 64.5596 64.5007 68.6802 58.3339C72.8007 52.167 75 44.9168 75 37.5C75 27.5544 71.0492 18.0161 64.0166 10.9835C56.9839 3.95088 47.4457 0 37.5 0" fill="white"/>
+<mask id="path-2-inside-1_67_256" fill="white">
+<rect x="31" y="22" width="14" height="8" rx="1"/>
+</mask>
+<rect x="31" y="22" width="14" height="8" rx="1" stroke="#0F263D" stroke-width="4" mask="url(#path-2-inside-1_67_256)"/>
+<mask id="path-3-inside-2_67_256" fill="white">
+<rect x="31" y="43" width="14" height="8" rx="1"/>
+</mask>
+<rect x="31" y="43" width="14" height="8" rx="1" stroke="#0F263D" stroke-width="4" mask="url(#path-3-inside-2_67_256)"/>
+<mask id="path-4-inside-3_67_256" fill="white">
+<rect x="10" y="43" width="14" height="8" rx="1"/>
+</mask>
+<rect x="10" y="43" width="14" height="8" rx="1" stroke="#0F263D" stroke-width="4" mask="url(#path-4-inside-3_67_256)"/>
+<mask id="path-5-inside-4_67_256" fill="white">
+<rect x="52" y="43" width="14" height="8" rx="1"/>
+</mask>
+<rect x="52" y="43" width="14" height="8" rx="1" stroke="#0F263D" stroke-width="4" mask="url(#path-5-inside-4_67_256)"/>
+<path d="M38 29L38 44" stroke="#0F263D" stroke-width="2"/>
+<path d="M17 44V38C17 36.8954 17.8954 36 19 36H57C58.1046 36 59 36.8954 59 38V44" stroke="#0F263D" stroke-width="2"/>
+</svg>
